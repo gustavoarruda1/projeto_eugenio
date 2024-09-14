@@ -45,6 +45,10 @@ nav {
     outline: none;
 }
 
+.logo img:focus {
+    outline: none;
+}
+
 .search {
     width: 50%;
     display: flex;
