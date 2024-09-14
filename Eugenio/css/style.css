@@ -42,6 +42,7 @@ nav {
 .logo img {
     width: 150px;
     display: block;
+    outline: none;
 }
 
 .search {
