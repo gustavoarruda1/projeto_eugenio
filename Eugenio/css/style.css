@@ -482,11 +482,11 @@ iframe {
     }
 
     .mobile-menu {
-        top: 93px;
+        top: 91px;
     }
 
     .open {
-        height: calc(100vh - 93px);
+        height: calc(100vh - 91px);
     }
 
     /* Fim do cabeçalho responsivo part2*/
