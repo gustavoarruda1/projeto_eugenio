@@ -248,22 +248,19 @@ footer>.center {
 .social-icon i {
     color: var(--fontcolor);
     font-size: 2rem;
-}
-
-.descricao p {
-    max-width: 350px;
-}
+}
 
 .social-icon i:hover {
     color: #ffffff;
 }
 
 .descricao {
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .descricao>p {
     margin-top: 8px;
+    max-width: 350px;
 }
 
 .social-icon-projeto {
