@@ -78,6 +78,16 @@ nav {
     position: relative;
 }
 
+.search input[type=text] {
+    width: 100%;
+    padding: 8px 40px 8px 15px;
+    border: 0;
+    border-radius: 10px;
+    outline: none;
+    background-color: var(--fontcolor);
+    color: var(--primarycolor);
+}
+
 .button-icon-search {
     position: absolute;
     top: 0;
@@ -88,16 +98,6 @@ nav {
     width: 50px;
     height: 100%;
     cursor: pointer;
-}
-
-.search input[type=text] {
-    width: 100%;
-    padding: 8px 40px 8px 15px;
-    border: 0;
-    border-radius: 10px;
-    outline: none;
-    background-color: var(--fontcolor);
-    color: var(--primarycolor);
 }
 
 .filter {
@@ -248,7 +248,8 @@ footer>.center {
 .social-icon i {
     color: var(--fontcolor);
     font-size: 2rem;
-}
+}
+
 
 .social-icon i:hover {
     color: #ffffff;
@@ -261,6 +262,7 @@ footer>.center {
 .descricao>p {
     margin-top: 8px;
     max-width: 350px;
+    text-align: justify;
 }
 
 .social-icon-projeto {
@@ -308,12 +310,17 @@ iframe {
         align-items: center;
     }
 
+    .descricao,
+    .escola2 {
+        width: 80%;
+    }
+
     .descricao>p {
         max-width: none;
     }
 
-    .escola2 {
-        width: 95%;
+    .footer-container>.logo {
+        transform: translateY(-25px);
     }
 
     .footer-container>.logo>img {
@@ -393,11 +400,20 @@ iframe {
         justify-content: center;
     }
 
+    .mobile-menu>.ul-mobile a {
+        font-size: 1.2rem;
+    }
+
     .open {
         display: block;
     }
 
     /* Fim do cabeçalho responsivo part1*/
+
+    .descricao,
+    .escola2 {
+        width: 95%;
+    }
 }
 
 @media (width <=660px) {
@@ -417,6 +433,11 @@ iframe {
 
     .input-item {
         width: 75%;
+    }
+
+    .button-icon-search {
+        width: 40px;
+        height: 98%;
     }
 
     .filter {
@@ -447,4 +468,10 @@ iframe {
 
     /* Fim do cabeçalho responsivo part2*/
 
+}
+
+@media (width <=410px) {
+    .direitos>p {
+        font-size: 13px;
+    }
 }
