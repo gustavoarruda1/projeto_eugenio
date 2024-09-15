@@ -120,11 +120,15 @@ ul.ul-desktop li>a {
     position: relative;
 }
 
+ul.ul-desktop li>a:hover {
+    color: #ffffff;
+}
+
 ul.ul-desktop li>a::after {
     content: " ";
     width: 0%;
-    height: 4px;
-    background-color: var(--fontcolor);
+    height: 2px;
+    background-color: #ffffff;
     position: absolute;
     bottom: 0;
     left: 0;
