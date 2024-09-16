@@ -80,12 +80,13 @@ nav {
 
 .search input[type=text] {
     width: 100%;
-    padding: 8px 40px 8px 15px;
+    padding: 9px 40px 9px 15px;
     border: 0;
     border-radius: 10px;
     outline: none;
     background-color: var(--fontcolor);
     color: var(--primarycolor);
+    font-size: 1rem;
 }
 
 .button-icon-search {
@@ -391,11 +392,11 @@ iframe {
         position: absolute;
         width: 100%;
         height: 0px;
-        top: 126px;
+        top: 125px;
         right: 0;
         padding-top: 0.5rem;
         z-index: 1000;
-        transition: .3s;
+        transition: .5s;
         visibility: hidden;
         overflow-y: hidden;
         background-color: var(--primarycolor);
@@ -418,7 +419,7 @@ iframe {
     }
 
     .open {
-        height: calc(100vh - 126px);
+        height: calc(100vh - 125px);
         visibility: visible;
         overflow-y: auto;
     }
