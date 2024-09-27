@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/noticias.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Notícias Eugênio</title>
+</head>
+
+<body>
+
+    <!-- Estruturando cabeçalho da página -->
+    <header>
+        <div class="center">
+            <nav>
+                <div class="logo">
+                    <a href="/"><img src="./img/logo2.png" alt="logo"></a>
+                </div> <!-- logo -->
+
+                <div class="search search-desktop">
+                    <div class="input-item">
+                        <input type="text" placeholder="Pesquisar...">
+                        <button type="submit" class="button-icon-search"><i class="fa-solid fa-magnifying-glass"
+                                style="color: #203e51;"></i></button>
+                    </div> <!-- input-item -->
+                    <div class="filter">
+                        <img src="./img/filter.svg" alt="filtro">
+                    </div><!-- filter -->
+                </div> <!-- search -->
+
+                <div class="menu-desktop">
+                    <ul class="ul-desktop">
+                        <li><a href="/">Escola</a></li>
+                        <li><a href="./index.html">Início</a></li>
+                        <li><a href="/">Sobre</a></li>
+                    </ul>
+                </div><!-- menu-desktop -->
+
+                <div class="button-menu-mobile">
+                    <button onclick="menuView()"><img class="icon" src="./img/menu-mobile-icon.svg"
+                            alt="icon menu"></button>
+                </div> <!-- button-menu-mobile -->
+            </nav>
+
+            <div class="mobile-menu">
+
+                <ul class="ul-mobile">
+                    <li><a href="/">Escola</a></li>
+                    <li><a href="./index.html">Início</a></li>
+                    <li><a href="/">Sobre</a></li>
+                </ul> <!-- ul-mobile -->
+            </div> <!-- mobile-menu -->
+        </div> <!-- center -->
+    </header>
+    <!-- Fim do cabeçalho -->
+
+    <main>
+        <section>
+            <div class="barra"></div> <!-- barra -->
+        </section>
+
+        <section>
+            <div class="main-news">
+                <div class="center">
+                    <div class="main-news-content">
+                        <div class="main-one">
+                            <h2>Lorem Ipsun</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae recusandae
+                                necessitatibus eos corporis veritatis sapiente odio labore.</p>
+                        </div> <!-- main-one -->
+                        <div class="main-news-wraper">
+                            <div class="main-two">
+                                <h2>Lorem Ipsun</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae recusandae
+                                    necessitatibus eos corporis veritatis sapiente odio labore.</p>
+                            </div> <!-- main-two -->
+                            <div class="main-two">
+                                <h2>Lorem Ipsun</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae recusandae
+                                    necessitatibus eos corporis veritatis sapiente odio labore.</p>
+                            </div> <!-- main-two -->
+                        </div> <!-- main-news-wraper -->
+                    </div> <!-- main-news content -->
+                </div> <!-- center -->
+            </div> <!-- main news -->
+        </section>
+
+        <section>
+            <div class="barra"></div> <!-- barra -->
+        </section>
+
+    </main>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
