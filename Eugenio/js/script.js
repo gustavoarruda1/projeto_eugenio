@@ -8,3 +8,6 @@ function menuView() {
         document.querySelector('.icon').src = "./img/menu-x-icon.svg";
     }
 }
+function submitForm() {
+    document.querySelector('form').submit();
+}
